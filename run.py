@@ -37,6 +37,7 @@ if __name__ == "__main__":
         effects.DictionaryTest(wall)
         effects.RainbowTest(wall)
         effects.Checkerboards(wall)
+        #effects.Checkerboards(wall)
         effects.Columns(wall)
         effects.Rainbow(wall)
         effects.Twinkle(wall)

@@ -111,6 +111,20 @@ def Checkerboards(wall):
         wall.draw()
         time.sleep(0.5)
 
+def Checkerboards2(wall):
+    print "Checkerboards2"
+    wall.clear()
+
+    for i in range(10):
+        for x in range(wall.width):
+            for y in range(wall.height):
+                if (x + y + i) % 3 == 0:
+                    wall.set_pixel(x, y, colors["black"])
+                else:
+                    wall.set_pixel(x, y, colors["yellow"])
+        wall.draw()
+        time.sleep(0.5)
+
 def Columns(wall):
     print "Columns"
     wall.clear()
