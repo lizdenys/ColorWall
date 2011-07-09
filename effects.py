@@ -17,7 +17,7 @@ def SolidColorTest(wall):
     print "SolidColorTest"
     wall.clear()
 
-    hue = 1
+    hue = 0
     saturation = 1
     value = 1
 
